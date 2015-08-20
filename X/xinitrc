@@ -1,0 +1,5 @@
+xrandr --setprovideroutputsource modesetting NVIDIA-0
+xrandr --auto
+xrandr --output LVDS-1-0 --auto --output VGA-1-0 --right-of LVDS-1-0
+[[ -f ~/.Xresources ]] && xrdb -merge -I$HOME ~/.Xresources
+exec i3
