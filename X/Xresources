@@ -1,6 +1,6 @@
 URxvt.scrollstyle: plain
 URxvt*buffered: false
-URxvt*font: xft:Source\ Code\ Pro\ Medium:pixelsize=12:antialias=true:hinting=true,xft:Source\ Code\ Pro\ Medium:pixelsize=13:antialias=true:hinting=true
+URxvt*font: xft:Source\ Code\ Pro\ Medium:pixelsize=12:antialias=true:hinting=true,xft:FontAwesome:pixelsize=12
 Xft.autohint: 0
 Xft.lcdfilter:  lcddefault
 Xft.hintstyle:  hintfull
@@ -8,3 +8,31 @@ Xft.hinting: 1
 Xft.antialias: 1
 Xft.rgba: rgb
 Xft.dpi: 96
+
+
+!!! Colors !!!
+!           black   red     green   yellow  blue    magenta cyan    white
+!   dark    00      01      02      03      04      05      06      07
+!   light   08      09      10      11      12      13      14      15
+
+
+*background:    #222222
+*foreground:    #e8e9ca
+
+*color0:        #222222
+*color1:        #8b3e2f
+*color2:        #526f33
+*color3:        #665847
+*color4:        #4a708b
+*color5:        #7a378b
+*color6:        #528b8b
+*color7:        #999999
+
+*color8:        #4c4c4c
+*color9:        #d75f00
+*color10:       #cee318
+*color11:       #eee685
+*color12:       #9ac0cd
+*color13:       #9f79ee
+*color14:       #79cdcd
+*color15:       #e8e9ca

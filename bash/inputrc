@@ -1,0 +1,4 @@
+# I can into history search
+
+"\C-[[A": history-search-backward
+"\C-[[B": history-search-forward
