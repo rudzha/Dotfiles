@@ -9,30 +9,39 @@ Xft.antialias: 1
 Xft.rgba: rgb
 Xft.dpi: 96
 
+! special
+*.foreground:   #cccccc
+*.background:   #111111
+*.cursorColor:  #cccccc
 
-!!! Colors !!!
-!           black   red     green   yellow  blue    magenta cyan    white
-!   dark    00      01      02      03      04      05      06      07
-!   light   08      09      10      11      12      13      14      15
+! black
+*.color0:       #222222
+*.color8:       #666666
 
+! red
+*.color1:       #e84f4f
+*.color9:       #d23d3d
 
-*background:    #222222
-*foreground:    #e8e9ca
+! green
+*.color2:       #b7ce42
+*.color10:      #bde077
 
-*color0:        #222222
-*color1:        #8b3e2f
-*color2:        #526f33
-*color3:        #665847
-*color4:        #4a708b
-*color5:        #7a378b
-*color6:        #528b8b
-*color7:        #999999
+! yellow
+*.color3:       #fea63c
+*.color11:      #ffe863
 
-*color8:        #4c4c4c
-*color9:        #d75f00
-*color10:       #cee318
-*color11:       #eee685
-*color12:       #9ac0cd
-*color13:       #9f79ee
-*color14:       #79cdcd
-*color15:       #e8e9ca
+! blue
+*.color4:       #66a9b9
+*.color12:      #aaccbb
+
+! magenta
+*.color5:       #b7416e
+*.color13:      #e16a98
+
+! cyan
+*.color6:       #6d878d
+*.color14:      #42717b
+
+! white
+*.color7:       #cccccc
+*.color15:      #ffffff
